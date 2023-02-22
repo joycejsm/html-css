@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo dentro de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            border-collapse: collapse;
+            width: 700px;
+
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 6px;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+        div#container{
+            overflow-x: auto;
+        }
+        iframe{
+            width: 700px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conteúdo em iframe</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit natus quod quidem distinctio soluta earum sunt necessitatibus cupiditate nam. Vitae illo vero repudiandae similique laudantium voluptate iure dolores voluptatibus deleniti!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti harum libero repellendus dolorem obcaecati optio, aut vero exercitationem laudantium impedit mollitia nam, ullam dicta nostrum officia voluptatum. Ex, sint deleniti?</p>
+   <iframe src="paginas-extras/pagina001.html" frameborder="0">
+    
+   </iframe>
+    
+</body>
+</html>
