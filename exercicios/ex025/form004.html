@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+    <form action="castro.php" method="get" autocomplete="email" required>
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <label for="imas">Masculino:</label>
+                <input type="radio" name="sexo" id="imas" value="M">
+            </p>
+            <p>
+                <label for="ifem">Feminino:</label>
+                <input type="radio" name="sexo" id="ifem" value="F">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+                <p>
+                    <label for="ifute">Futebol:</label>
+                    <input type="checkbox" name="fute" id="ifute"><br>
+                </p>
+                <p>
+                    <label for="ibas">Basquete:</label>
+                    <input type="checkbox" name="bas" id="ibas"><br>
+                </p>
+                <p>
+                    <label for="iten">Tênis:</label>
+                    <input type="checkbox" name="ten" id="iten"><br>
+                </p>
+                <p>
+                    <label for="ivo">Vôlei:</label>
+                    <input type="checkbox" name="vo" id="ivo"><br>
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="imail">Email:</label>
+                <input type="email" name="email" id="imail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required>
+            </p>
+            <!--Estudar mais sobre RegEx-->
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+
+    </form>
+</head>
+<body>
+    
+</body>
+</html>

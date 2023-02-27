@@ -4,56 +4,126 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+:root{
+    --cor1: #FF770C;
+    --cor2: #c1850c;
+    --cor3: white;
+    --cor4: black;
+
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+    --font-titulo: 'Berkshire Swash', Italic;
+    --font-cont: 'Montserrat';
 }
-header{
-    margin-top: 5px;
+
+h1{
+    padding: 20px 20px 20px;
 }
-nav{
- height: auto;
- width: auto;
- font-weight: bold;
- padding-right: 20px;
- padding-left: 766px;
+nav, nav,a{
+    font-family: var(--fonte-padrão);
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 5px;
 }
-a{
-    color:black;
-    text-decoration-line: none;
-}
-    nav>a{
-        margin: 20px;
-    }
 button{
-    background-color: #FF770C;
-    border-radius: 30px;
-    height: 30px;
-    font-style: bold;
-    border-color: #FF770C;
+    background-color: var(--cor1);
+    padding: 8px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bolder;
 }
 button:hover{
     background-color: black;
+    transition-duration: 0.3s;
     color: white;
-    border-color: grey;
 }
-.banner{
+div.cabecalho{
+    min-width: 320px;
+    min-height: 568px;
+    height: 961px;
+    margin-top: 20px; 
+}
+div#banner{
+    min-width: 320px;
+    min-height: 568px;
     background-image: url(uploads/pizzaria-hero-fundo01.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    margin-top: 150px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 3px 3px 24px rgba(0, 0, 0, 0.238);
+    position: relative;   
+}
+div.cabecalho:hover{
+    background-color: rgba(0, 0, 0, 0.573);
+}
+div.tit{
+    color: var(--cor3);
+    font-family: var(--font-titulo);
+    font-size: 40px;
+    text-align: center;
 }
 
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 0px;
+div.tit h2{
+    font-family: var(--font-cont);
+    font-weight: normal;
+    font-size: smaller;
+    color: var(--cor1);
 }
-.home{
-    color: #FF770C;
-    font-family: 'Berkshire Swash';
-    font-size: 50px;
-    margin: 16px 10px 16px 10px;
+section{
+    position: relative;
+      
+}
+div#texto {
+    
+    width: 430px;
+    height: 700px;
+    background-color: var(--cor3);
+    display: inline-block;
+}
+div#texto h3{
+    font-family: var(--font-cont);
+    padding-left: 25px;
+    padding-top: 27px;
+}
+div#texto h2{
+    font-family: var(--font-titulo);
+    color: #ff6f00;
+    font-size: 45px;
+    padding: 28px;
+}
+p#leiamais button{
+    padding: 10px;
+    margin: 28px;   
+}
+div#pizza{
+    position: absolute;
+    background-image: url(uploads/2019/07/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 430px;
+    height: 700px;
+    top: 170.5%;
+    left:38%;
+    background-position: center center;
+}
+div#restaurante{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    background-image: url(uploads/2019/07/restaurante02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 171%;
+    left: 70.32%;
+    background-position: center center;
+}
+footer{
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrão);
+    font-weight: bolder;
+    text-align: center;
+    padding: 8px;
+
+    
 }
