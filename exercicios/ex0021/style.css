@@ -51,7 +51,6 @@ div#banner{
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    box-shadow: 3px 3px 24px rgba(0, 0, 0, 0.238);
     position: relative;   
 }
 div.cabecalho:hover{
@@ -79,7 +78,7 @@ div#texto {
     width: 430px;
     height: 700px;
     background-color: var(--cor3);
-    display: inline-block;
+    
 }
 div#texto h3{
     font-family: var(--font-cont);
@@ -103,7 +102,7 @@ div#pizza{
     background-size: cover;
     width: 430px;
     height: 700px;
-    top: 170.5%;
+    top: 169%;
     left:38%;
     background-position: center center;
 }
@@ -114,7 +113,7 @@ div#restaurante{
     background-image: url(uploads/2019/07/restaurante02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    top: 171%;
+    top: 170%;
     left: 70.32%;
     background-position: center center;
 }
