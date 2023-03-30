@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family:LDCharmini-SemiLight;
+    src: url(../fontes/LDCharmini-SemiLight.otf);
+
+}
+  @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:wght@500&family=Old+Standard+TT&family=Sriracha&family=Uncial+Antiqua&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+:root{
+    --font-enfeitada: 'LDCharmini-SemiLight'
+}
+body, html{
+    background-image: linear-gradient(to right, rgb(109, 69, 69)
+    (217, 198, 95), rgba(255, 217, 0, 0.406))
+
+}
+
+header{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1680px){
+    body{
+        
+    }
+    h1{
+        font-size: 3em;
+
+    }
+    span{
+        display: block;
+        margin: 18px;
+    }
+    div.container{
+        width: 700px;
+        height: 500px;
+    }
+    
+    input{
+     margin: 18px;
+    }
+    input[type="submit" i]{
+        display: block;
+        margin-left: 80px;
+        margin-left: 55px;
+        
+    }
+    form a{
+        text-align: left;
+    }
+}

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'LDCharmini-SemiLight';
+    src: url(../fontes/LDCharmini-SemiLight.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px 
+}
+body{
+    background-image: url(https://images.pexels.com/photos/8115587/pexels-photo-8115587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+h1{
+    font-family: "LDCharmini-SemiLight";
+    color: #a0522d;
+    font-size: 2em;
+    padding: 18px;
+    text-align: center;
+    font-weight: bolder;
+}
+div.container{
+    display: flex;
+    width: 270px;
+    height: 400px;
+    background-color: rgba(160, 81, 45, 0.646);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form{
+    margin: 12px;
+}
+label{
+    display: none;
+}
+span{
+    color: #f0ab8b;
+}
+span#person{
+    
+    font-size: 2em;
+}
+span#key{
+    
+    font-size: 2em;
+}
+input{
+    border: none;
+}
+input[type="email" i] {
+    width: 77%;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #f0ab8b;
+
+}
+input[type="password" i]{
+    width: 77%;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #f0ab8b;
+
+}
+input[type="submit" i]{
+    display: block;
+    
+    background-color: rgba(160, 81, 45, 0.646);
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-family: "LDCharmini-SemiLight";
+    font-size: 1.3em;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transform: translateX(20%);
+}
+input[type="submit" i]:hover{
+    background-color: #f0ab8b;
+    transition: 0.3s;
+}
+form a{
+    color: #f0ab8b;
+    text-align: center;
+}
+form a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+    
+    
